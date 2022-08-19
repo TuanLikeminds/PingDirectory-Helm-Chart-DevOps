@@ -826,7 +826,7 @@ pingfederate-admin:
 # @default  false
 #############################################################
 pingfederate-engine:
-  enabled: false
+  enabled: true
   name: pingfederate-engine
   image:
     name: pingfederate
@@ -846,6 +846,9 @@ pingfederate-engine:
 
   envs:
     PF_ADMIN_PORT: "9999"
+    PING_IDENTITY_DEVOPS_USER: "tuan@likemindsconsulting.com"
+    PING_IDENTITY_DEVOPS_KEY: "0b014115-5c5b-434a-914c-2a574b8cb6d3"
+    PING_IDENTITY_ACCEPT_EULA: "yes"
 
   #############################################################
   # Horizontal Pod Autoscaling

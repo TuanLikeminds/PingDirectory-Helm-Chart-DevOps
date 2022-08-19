@@ -984,7 +984,10 @@ pingdirectory:
   enabled: true
   name: pingdirectory
   image:
+    repository: pingidentity
     name: pingdirectory
+    tag: "9.1.0.0-edge"
+    pullPolicy: IfNotPresent  
 
   container:
     replicaCount: 1

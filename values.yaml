@@ -1041,6 +1041,9 @@ pingdirectory:
 
   envs:
     MAKELDIF_USERS: "20000"
+    PING_IDENTITY_DEVOPS_USER: dHVhbkBsaWtlbWluZHNjb25zdWx0aW5nLmNvbQ==
+    PING_IDENTITY_DEVOPS_KEY: MGIwMTQxMTUtNWM1Yi00MzRhLTkxNGMtMmE1NzRiOGNiNmQz
+    PING_IDENTITY_ACCEPT_EULA: eWVz
 
   services:
     ldap:

@@ -977,7 +977,7 @@ pingdirectory:
     jobspec: {}
     image: bitnami/kubectl:latest
     args: []
-  enabled: false
+  enabled: true
   name: pingdirectory
   image:
     name: pingdirectory

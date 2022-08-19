@@ -754,7 +754,11 @@ pingfederate-admin:
       limits:
         cpu: 2
         memory: 4Gi
-
+  envs:
+    PING_IDENTITY_DEVOPS_USER: "tuan@likemindsconsulting.com"
+    PING_IDENTITY_DEVOPS_KEY: "0b014115-5c5b-434a-914c-2a574b8cb6d3"
+    PING_IDENTITY_ACCEPT_EULA: "yes"
+    
   workload:
     deployment:
       strategy:

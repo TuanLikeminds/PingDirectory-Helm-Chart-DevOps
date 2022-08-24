@@ -984,7 +984,7 @@ pingdirectory:
   image:
     repository: pingidentity
     name: pingdirectory
-    tag: "9.1.0.0-edge"
+    tag: "2207-11.1.1"
     pullPolicy: IfNotPresent  
 
   container:
